@@ -1,7 +1,7 @@
-0x19. C - Stacks, Queues - LIFO, FIFO
+# 0x19. C - Stacks, Queues - LIFO, FIFO
 
-Team Project
+## Team Project
 
-Contributors
-	Augustine Agbolan
-	Kuyik Bassey
+## Contributors
+- Augustine Agbolan
+- Kuyik Bassey
