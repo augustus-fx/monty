@@ -1,13 +1,13 @@
 # 0x19. C - Stacks, Queues - LIFO, FIFO
 
-# Team Project
+Team Project
 
-# Contributors
+Contributors
 - Augustine Agbolan
 - Kuyik Bassey
 
 # Resources
-## Read or watch:
+Read or watch:
 
 # Google
 ## How do I use extern to share variables between source files in C?
