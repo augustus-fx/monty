@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef MONTY_H
 #define MONTY_H
 #include <stdio.h>
@@ -7,6 +8,11 @@
 #include <fcntl.h>
 #include <string.h>
 #include <ctype.h>
+=======
+#include <stdio.h>
+#include <stdlib.h>
+
+>>>>>>> 854cef6d1812cf4dff4db82fad18090db5000d88
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -14,6 +20,7 @@
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
+<<<<<<< HEAD
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct stack_s
@@ -38,12 +45,27 @@ typedef struct bus_s
 	int lifi;
 }  bus_t;
 extern bus_t bus;
+=======
+ * for stack, queues, LIFO, FIFO
+ */
+typedef struct stack_s
+{
+        int n;
+        struct stack_s *prev;
+        struct stack_s *next;
+} stack_t;
+
+#include <stdio.h>
+#include <stdlib.h>
+
+>>>>>>> 854cef6d1812cf4dff4db82fad18090db5000d88
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
+<<<<<<< HEAD
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
@@ -76,3 +98,12 @@ void addqueue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int counter);
 void f_stack(stack_t **head, unsigned int counter);
 #endif
+=======
+ * for stack, queues, LIFO, FIFO
+ */
+typedef struct instruction_s
+{
+        char *opcode;
+        void (*f)(stack_t **stack, unsigned int line_number);
+} instruction_t;
+>>>>>>> 854cef6d1812cf4dff4db82fad18090db5000d88
